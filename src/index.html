@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <style type="text/css">
+    	html, body, #wrapper {
+    		height: 100%;
+    	}
+
+    	#wrapper {
+    		background: #ccc;
+    		padding: 10px;
+    	}
+
+    	li {
+        list-style-type: none;
+        border: 1px solid #000;
+        margin: 5px 0;
+        padding: 5px;
+      }
+
+      .name {
+        color: #00f;
+      }
+      .msg {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+  	<div id="wrapper">
+  		
+  	
+      <input id="username" name="username" type="text" placeholder="Input your name here" />&nbsp;
+  		<input id="msg" name="msg" type="text" placeholder="Type your message here" />
+  		<button id="send" disabled>Send</button>
+
+      <ul id="messages">
+        <!-- <li>
+          <div class="name"></div>
+          <div class="msg"></div>
+        </li> -->
+      </ul>
+  
+
+  	</div>
+  </body>
+</html>

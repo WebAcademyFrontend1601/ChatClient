@@ -1,0 +1,29 @@
+{
+  "name": "chat_client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --host 192.168.1.64 --port 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebAcademyFrontend1601/ChatClient.git"
+  },
+  "author": "onomatopio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebAcademyFrontend1601/ChatClient/issues"
+  },
+  "homepage": "https://github.com/WebAcademyFrontend1601/ChatClient#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.7.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
